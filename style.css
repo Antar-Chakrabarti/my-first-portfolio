@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -15,6 +20,7 @@ h1{
 
 section{
   display: flex;
+  margin-bottom: 50px;
 }
 .half-width{
   width: 50%;
@@ -23,7 +29,7 @@ section{
 .half-width img{
   width: 100%;
   height: 500px;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .link-button{
   text-decoration: none;
@@ -34,6 +40,11 @@ section{
   border-radius: 5px;
 }
 .top-banner{
+  background-image: url(img/pexels-bess-hamiti-35188.jpg);
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.dream-big{
   background-image: url(img/pexels-bess-hamiti-35188.jpg);
   background-repeat: no-repeat;
 }
