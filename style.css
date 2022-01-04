@@ -14,7 +14,10 @@ img{
 h1{
   font-size: 50px;
 }
-.orange-color span{
+h2{
+  font-size: 40px;
+}
+.orange-color{
   color: orange;
 }
 
@@ -47,4 +50,30 @@ h1{
 .dream-big{
   background-image: url(img/pexels-bess-hamiti-35188.jpg);
   background-repeat: no-repeat;
+}
+.experience-area{
+  background-image: url(img/pexels-samer-daboul-1815257.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.experience-item{
+  width: 40%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px black;
+}
+#web-dev-experience{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack-experience{
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
